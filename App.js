@@ -43,7 +43,7 @@ export default function App() {
   if (cargando) {
     return (
       <SafeAreaView style={styles.center}>
-        <ActivityIndicator size="large" color="#2563EB" />
+        <ActivityIndicator size="large" color="#1263EB" />
         <Text style={styles.loadingText}>Cargando base de datos SQLite...</Text>
       </SafeAreaView>
     );
