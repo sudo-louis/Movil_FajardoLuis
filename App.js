@@ -52,7 +52,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.phoneFrame}>
-        <Text style={styles.titulo}>Mis Tareas</Text>
+        <Text style={styles.titulo}>Fajardo Luis Tareas</Text>
         <Text style={styles.subtitulo}>SQLite v{version} · {tareas.length} tarea(s)</Text>
 
         <View style={styles.inputRow}>
